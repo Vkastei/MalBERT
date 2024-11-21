@@ -2,11 +2,12 @@
 MalBERT is a project to detect malware with a fine tuned BERT model, trained on disassembled samples of malware and benign binaries.
 
 Currently the Model is trained on around 500 via IDA Pro disassembled benign and malware executables. The benign samples are just copied from the System32 directory and the malware samples are obtained via the MalwareBazaar API. 
-![image](https://github.com/user-attachments/assets/e42864ea-1ebf-4a92-a6be-913e6d3f5528)
 
 > [!WARNING]  
 > This repository contains code that is able to download & extract malware. Demanding user attention due to potential risk of being infiltrated.
 > Dont run code you don't understand.
+
+![image](https://github.com/user-attachments/assets/e42864ea-1ebf-4a92-a6be-913e6d3f5528)
 ## Usage
 ### Requirements
 #### Checking a binary
