@@ -1,7 +1,7 @@
 # MalBERT
 MalBERT is a project to detect malware with a fine tuned BERT model, trained on disassembled samples of malware and benign binaries.
 
-Currently the Model is trained on around 500 benign executables, and 500 malware executables. The benign samples are just copied from the System32 directory and the malware samples are obtained via the MalwareBazaar API. 
+Currently the Model is trained on around 500 via IDA Pro disassembled benign and malware executables. The benign samples are just copied from the System32 directory and the malware samples are obtained via the MalwareBazaar API. 
 
 > [!WARNING]  
 > This repository contains code that is able to download & extract malware. Demanding user attention due to potential risk of being infiltrated.
@@ -30,3 +30,9 @@ You can find examples to create a new dataset, get new samples etc. inside the e
 - [ ] Add Code comments
 - [ ] More Logs
 - [ ] Run the code on a Server/Website
+
+## References
+- Base of the Model : https://medium.com/@khang.pham.exxact/text-classification-with-bert-7afaacc5e49b
+- BERT Language Model : https://huggingface.co/docs/transformers/model_doc/bert
+- Malware Bazaar API : https://bazaar.abuse.ch/api/
+- IDA Pro Disassembler : https://hex-rays.com/ida-pro
