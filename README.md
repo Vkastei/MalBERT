@@ -31,6 +31,9 @@ You can find examples to create a new dataset, get new samples etc. inside the e
 - [ ] More Logs
 - [ ] Run the code on a Server/Website
 
+## Contributing
+If you want to contribute to this project, just text me on discord: @hardstuckvini
+
 ## References
 - Base of the Model : https://medium.com/@khang.pham.exxact/text-classification-with-bert-7afaacc5e49b
 - BERT Language Model : https://huggingface.co/docs/transformers/model_doc/bert
