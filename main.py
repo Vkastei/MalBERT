@@ -12,7 +12,7 @@ import training
 import os
 import shutil
 
-binary_filepath = "C:\\Users\\vince\\Desktop\\winver.exe"
+binary_filepath = ""
 # Set up parameters
 bert_model_name = 'bert-base-uncased'
 num_classes = 2
