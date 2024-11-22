@@ -7,7 +7,9 @@ Currently the Model is trained on around 500 via IDA Pro disassembled benign and
 > This repository contains code that is able to download & extract malware. Demanding user attention due to potential risk of being infiltrated.
 > Dont run code you don't understand.
 
-![image](https://github.com/user-attachments/assets/e42864ea-1ebf-4a92-a6be-913e6d3f5528)
+Training:
+![image](https://github.com/user-attachments/assets/ad0bab11-6cdf-4e58-9786-33f015077803)
+
 ## Usage
 ### Requirements
 #### Checking a binary
