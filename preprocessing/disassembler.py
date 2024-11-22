@@ -1,6 +1,6 @@
 import os 
 
-IDA_PATH = "C:\\ida76sp1\\ida64.exe"
+IDA_PATH = ""
 
 class Disassembler:
     
