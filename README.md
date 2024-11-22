@@ -13,7 +13,6 @@ Currently the Model is trained on around 500 via IDA Pro disassembled benign and
 
 ## Usage
 ### Requirements
-#### Checking a binary
 (These are the specs I use, they are variable)
 - Ida Pro (can be replaced with any other command line disassembler)
 - Cuda 11.8
