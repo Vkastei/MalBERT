@@ -19,6 +19,5 @@ class PredictModel:
             predicted_class = torch.argmax(probabilities, dim=1).item()
             predicted_probability = probabilities[0, predicted_class].item()
             
-        # Ergebnis als Text und Wahrscheinlichkeit zurückgeben
         label = "benign" if predicted_class == 1 else "malware"
         return label, predicted_probability
