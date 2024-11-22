@@ -21,10 +21,13 @@ Currently the Model is trained on around 500 via IDA Pro disassembled benign and
 #### Training the model 
 - MalwareBazaar API key
 ### Basic Usage
-You can use the code inside the main.py for a basic usage guide
-### Examples
-You can find examples to create a new dataset, get new samples etc. inside the examples folder.
-
+Locate the root directory of the branch.
+#### Creating new samples and dataset (.csv)
+This command creates 500 samples of benign and malware files, disassembles them and saves the content inside a dataset.csv-
+The samples are deleted afterwards.
+```python -m examples.create_samples_and_dataset_csv.py```
+#### Training the model
+```python -m examples.train_model```
 ## TODO
 - [ ] Create better Documentation
 - [ ] Train model on more samples
