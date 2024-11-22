@@ -63,7 +63,7 @@ model = MalBERTClassifier(bert_model_name, num_classes).to(device)
 model.load_state_dict(torch.load("bert_classifier.pth"))
 
 data = ""
-with open("18e1a9142a9f6b7a601ff64074a7a59e370d5bc8270ef5aa17277ef4531b05bc6.txt", 'r', encoding="utf-8") as sample:
+with open("", 'r', encoding="utf-8") as sample:
     data = sample.read().replace("\n", " ")
 PredictModel = PredictModel()
 type, prohability = PredictModel.predict_sentiment(data, model, tokenizer, device)
